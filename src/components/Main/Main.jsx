@@ -32,6 +32,20 @@ const Main = () => {
                     <img src={assets.code_icon} alt="" />
                 </div>
             </div>
+             
+            <div className="main-bottom">
+                <div className="search-box">
+                    <input type="text" placeholder='Enter a propt here' />
+                    <div>
+                        <img src={assets.gallery_icon} alt="" />
+                        <img src={assets.mic_icon} alt="" />
+                        <img src={assets.send_icon} alt="" />
+                    </div>
+                </div>
+                <p className="bottom-info">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quas voluptates eaque at eligendi nisi optio deserunt ipsa officia minus!
+                </p>
+            </div>
         </div>
     </div>
   )
